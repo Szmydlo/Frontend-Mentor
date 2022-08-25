@@ -1,0 +1,151 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(233, 47%, 7%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img {
+  aspect-ratio: 1.36 / 1;
+  width: 100%;
+}
+
+em {
+  color: hsl(277, 64%, 61%);
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 100px 5%;
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.photo_container {
+  aspect-ratio: 1.36 / 1;
+  grid-row: 1;
+  display: inline-block;
+  position: relative;
+}
+
+.photo_container:after {
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  aspect-ratio: 1.36 / 1;
+  display: block;
+  position: absolute;
+  background: hsl(277, 64%, 61%);
+  opacity: 0.5;
+}
+
+.text_container {
+  grid-row: 2;
+  margin: 0 16px;
+}
+
+.fancy_values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (min-width: 500px) {
+  .fancy_values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  article {
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 850px) {
+  .container {
+    margin: 15% 5%;
+    height: 400px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(244, 38%, 16%);
+  }
+  .text_container {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 8px 8px;
+  }
+  .photo_container {
+    aspect-ratio: 1.36 / 1;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+  }
+  article {
+    text-align: left;
+  }
+  h1 {
+    text-align: left;
+  }
+  span {
+    visibility: hidden;
+  }
+  h2 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1100px) {
+  span {
+    visibility: visible;
+  }
+  h2 {
+    visibility: visible;
+  }
+  .text_container {
+    margin: 48px 48px;
+  }
+}
