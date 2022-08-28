@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="./styles.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container first">
+      <div class="star">
+        <img src="./images/icon-star.svg" class="star_img" />
+      </div>
+      <h2>How did we do?</h2>
+      <article>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </article>
+      <div class="rating">
+        <button class="mark" id="mark1">1</button>
+        <button class="mark" id="mark2">2</button>
+        <button class="mark" id="mark3">3</button>
+        <button class="mark" id="mark4">4</button>
+        <button class="mark" id="mark5">5</button>
+      </div>
+      <button type="button" class="submit">Submit</button>
+    </div>
+    <div class="container second">
+      <div class="phone">
+        <img class="phone_image" src="./images/illustration-thank-you.svg" />
+      </div>
+      <div class="given_rating">
+        You selected <em></em>
+        out of 5
+      </div>
+      <h2 class="thank_you">Thank you!</h2>
+      <article class="thank_you">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </article>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

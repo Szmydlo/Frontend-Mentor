@@ -1,0 +1,95 @@
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(273, 75%, 66%);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+}
+
+.opened {
+  transform: rotate(180deg);
+}
+
+.woman_mobile {
+  width: 90%;
+  position: absolute;
+  top: -140px;
+  left: 5%;
+}
+
+.image_container {
+  position: relative;
+  height: 130px;
+}
+
+.container {
+  width: 340px;
+  height: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.woman_mobile_shadow {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+.answer {
+  width: 85%;
+  font-size: 14px;
+  color: hsl(240, 6%, 50%);
+  margin-bottom: 20px;
+  height: 60px;
+  transition: height 0.3s ease-in-out;
+}
+
+.answer_hidden {
+  transition: height 0.3s ease-in-out;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.question_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+
+.question {
+  width: 85%;
+  user-select: none;
+}
+
+.question_box:hover .question {
+  color: hsl(14, 88%, 65%);
+}
+
+.question_box:hover {
+  cursor: pointer;
+}
+
+.opened_title {
+  font-weight: bold;
+}
+
+.faq_entry {
+  border-bottom: 1px solid hsl(240, 6%, 50%);
+}

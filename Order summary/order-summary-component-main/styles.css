@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+
+.container {
+  width: 350px;
+  height: 600px;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.hero_image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 32px;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+}
+
+.subscription {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 94%);
+  width: 85%;
+  margin: auto;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.music {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.subscription_data {
+  width: 40%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.subscritpion_title {
+  font-weight: bold;
+}
+
+.subscription_price {
+  color: hsl(224, 23%, 55%);
+}
+
+.subscription_change {
+  padding: 0;
+  border: none;
+  background: none;
+  margin: auto;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  padding-right: 8px;
+}
+
+.primary {
+  padding: 0;
+  border: none;
+  background: none;
+  margin: auto;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  width: 85%;
+  display: block;
+  margin-top: 32px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.primary:hover {
+  cursor: pointer;
+}
+
+.secondary {
+  padding: 0;
+  border: none;
+  background: none;
+  margin: auto;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  width: 85%;
+  display: block;
+  margin-top: 16px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.secondary:hover {
+  cursor: pointer;
+}

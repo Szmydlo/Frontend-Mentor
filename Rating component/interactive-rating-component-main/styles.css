@@ -1,0 +1,115 @@
+html {
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+article {
+  color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  margin-bottom: 36px;
+  line-height: 1.5;
+}
+
+em {
+  font-style: normal;
+}
+
+.container {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.star {
+  background-color: hsl(216, 12%, 54%);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.star_img {
+  width: 20px;
+  height: 20px;
+  margin: 25% auto;
+  display: block;
+}
+
+.mark {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(216, 12%, 54%);
+  display: block;
+  color: hsl(217, 12%, 63%);
+  border-radius: 20px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 36px;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  height: 50px;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.submit:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: all 0.2s ease;
+}
+
+.phone {
+  justify-content: center;
+}
+
+.phone_image {
+  margin: 10px auto 0px;
+  display: block;
+}
+
+.thank_you {
+  text-align: center;
+}
+
+.given_rating {
+  background-color: hsl(216, 12%, 54%);
+  width: 60%;
+  height: 32px;
+  margin: 30px auto 12px;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+  border-radius: 16px;
+}
+
+.second {
+  visibility: hidden;
+}
+
+.chosen {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
